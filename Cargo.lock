@@ -1497,6 +1497,7 @@ dependencies = [
  "cfg-if 0.1.10",
  "libc",
  "wasi",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -2603,12 +2604,9 @@ checksum = "9cbca9424c482ee628fa549d9c812e2cd22f1180b9222c9200fdfa6eb31aecb2"
 
 [[package]]
 name = "once_cell"
-version = "1.5.2"
+version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13bd41f508810a131401606d54ac32a467c97172d74ba7662562ebba5ad07fa0"
-dependencies = [
- "parking_lot 0.11.0",
-]
+checksum = "692fcb63b64b1758029e0a96ee63e049ce8c5948587f2f7208df04625e5f6b56"
 
 [[package]]
 name = "opaque-debug"
@@ -2785,16 +2783,6 @@ dependencies = [
  "redox_syscall",
  "smallvec 1.6.1",
  "winapi 0.3.8",
-]
-
-[[package]]
-name = "pbkdf2"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "006c038a43a45995a9670da19e67600114740e8511d4333bf97a56e66a7542d9"
-dependencies = [
- "byteorder",
- "crypto-mac 0.7.0",
 ]
 
 [[package]]
@@ -4147,7 +4135,7 @@ dependencies = [
  "solana-sdk",
  "tempfile",
  "thiserror",
- "tiny-bip39 0.8.0",
+ "tiny-bip39",
  "uriparse",
  "url 2.2.0",
 ]
@@ -4195,7 +4183,7 @@ dependencies = [
  "spl-memo",
  "tempfile",
  "thiserror",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
  "url 2.2.0",
 ]
 
@@ -4652,7 +4640,7 @@ dependencies = [
  "solana-remote-wallet",
  "solana-sdk",
  "solana-version",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
 ]
 
 [[package]]
@@ -5208,7 +5196,7 @@ dependencies = [
  "solana-program 1.7.0",
  "solana-sdk-macro 1.7.0",
  "thiserror",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
  "uriparse",
 ]
 
@@ -5938,25 +5926,9 @@ dependencies = [
 
 [[package]]
 name = "tiny-bip39"
-version = "0.7.3"
+version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0165e045cc2ae1660270ca65e1676dbaab60feb0f91b10f7d0665e9b47e31f2"
-dependencies = [
- "failure",
- "hmac 0.7.1",
- "once_cell",
- "pbkdf2 0.3.0",
- "rand 0.7.3",
- "rustc-hash",
- "sha2 0.8.2",
- "unicode-normalization",
-]
-
-[[package]]
-name = "tiny-bip39"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d9e44c4759bae7f1032e286a7ef990bd9ed23fe831b7eeba0beb97484c2e59b8"
+checksum = "ffc59cb9dfc85bb312c3a78fd6aa8a8582e310b0fa885d5bb877f6dcc601839d"
 dependencies = [
  "anyhow",
  "hmac 0.8.1",
@@ -5967,6 +5939,7 @@ dependencies = [
  "sha2 0.9.2",
  "thiserror",
  "unicode-normalization",
+ "wasm-bindgen",
  "zeroize",
 ]
 
