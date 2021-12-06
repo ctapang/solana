@@ -3425,9 +3425,9 @@ dependencies = [
 
 [[package]]
 name = "retain_mut"
-version = "0.1.2"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53552c6c49e1e13f1a203ef0080ab3bbef0beb570a528993e83df057a9d9bba1"
+checksum = "11000e6ba5020e53e7cc26f73b91ae7d5496b4977851479edb66b694c0675c21"
 
 [[package]]
 name = "ring"
