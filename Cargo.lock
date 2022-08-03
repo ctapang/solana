@@ -3626,6 +3626,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "semver"
+version = "1.0.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "93f6841e709003d68bb2deee8c343572bf446003ec20a583e76f7b15cebf3711"
+
+[[package]]
 name = "semver-parser"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4250,7 +4256,7 @@ dependencies = [
  "net2",
  "rayon",
  "reqwest",
- "semver 0.11.0",
+ "semver 1.0.13",
  "serde",
  "serde_derive",
  "serde_json",
@@ -4622,7 +4628,7 @@ dependencies = [
  "lazy_static",
  "nix 0.19.0",
  "reqwest",
- "semver 0.9.0",
+ "semver 1.0.13",
  "serde",
  "serde_json",
  "serde_yaml",
@@ -5069,7 +5075,7 @@ dependencies = [
  "num-traits",
  "parking_lot 0.10.2",
  "qstring",
- "semver 0.9.0",
+ "semver 1.0.13",
  "solana-sdk",
  "thiserror",
  "uriparse",
