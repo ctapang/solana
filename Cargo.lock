@@ -2789,16 +2789,6 @@ dependencies = [
 
 [[package]]
 name = "pbkdf2"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "006c038a43a45995a9670da19e67600114740e8511d4333bf97a56e66a7542d9"
-dependencies = [
- "byteorder",
- "crypto-mac 0.7.0",
-]
-
-[[package]]
-name = "pbkdf2"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "216eaa586a190f0a738f2f918511eecfa90f13295abec0e457cdebcceda80cbd"
@@ -4147,7 +4137,7 @@ dependencies = [
  "solana-sdk",
  "tempfile",
  "thiserror",
- "tiny-bip39 0.8.0",
+ "tiny-bip39",
  "uriparse",
  "url 2.2.0",
 ]
@@ -4195,7 +4185,7 @@ dependencies = [
  "spl-memo",
  "tempfile",
  "thiserror",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
  "url 2.2.0",
 ]
 
@@ -4652,7 +4642,7 @@ dependencies = [
  "solana-remote-wallet",
  "solana-sdk",
  "solana-version",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
 ]
 
 [[package]]
@@ -5208,7 +5198,7 @@ dependencies = [
  "solana-program 1.7.0",
  "solana-sdk-macro 1.7.0",
  "thiserror",
- "tiny-bip39 0.7.3",
+ "tiny-bip39",
  "uriparse",
 ]
 
@@ -5934,22 +5924,6 @@ dependencies = [
  "quote 1.0.6",
  "standback",
  "syn 1.0.60",
-]
-
-[[package]]
-name = "tiny-bip39"
-version = "0.7.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0165e045cc2ae1660270ca65e1676dbaab60feb0f91b10f7d0665e9b47e31f2"
-dependencies = [
- "failure",
- "hmac 0.7.1",
- "once_cell",
- "pbkdf2 0.3.0",
- "rand 0.7.3",
- "rustc-hash",
- "sha2 0.8.2",
- "unicode-normalization",
 ]
 
 [[package]]
